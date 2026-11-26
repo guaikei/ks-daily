@@ -6,6 +6,11 @@ name: ks-daily
 description: "快手公开数据每日热点搜索（只读）：关键词搜视频、博主作品与粉丝数据、视频评论，输出 JSON，不登录不发布。触发词：快手、Kuaishou、kwai、快手搜索、快手评论、快手博主。用户要查快手视频、评论、爆款选题、竞品监控、KOL 筛选或评论舆情时使用；抖音、小红书、B站、微博、公众号不要用本技能。"
 license: MIT
 version: 1.1.3
+display_name: "快手每日热点搜索｜高赞排序·时间筛选·行业热点·每日速览"
+display_name_en: "Kuaishou Daily"
+description_zh: "快手每日热点搜索数据源（只读）：关键词搜视频（综合/最多点赞/最新排序 + 近1日/近7日时间窗 + 时长/内容类型筛选）、作品详情、视频评论、博主作品与粉丝数据，输出结构化 JSON，供 AI 做当日热点速览、行业热点追踪、高赞内容分析与竞品热点对比。不登录、不发布、不点赞、不评论、不关注。按量单次最多 1 万条；包月搜索 ≤30、作品 ≤50、评论 ≤60，超限返回 PLAN_LIMIT（退出码 1），降 --limit 或升级须用户同意后再跑。"
+description_en: "Read-only Kuaishou daily hot-search data source: keyword video search (relevance / most-liked / latest sorting, 1-day / 7-day windows, duration and content-type filters), video detail, video comments, creator posts with follower stats - structured JSON for daily hot-list overviews, industry trend tracking, top-liked content analysis and competitor hot-topic comparison. No login, posting, liking, commenting or following. Pay-per-use caps at 10,000 items; monthly plans cap search at 30, works at 50 and comments at 60, returning PLAN_LIMIT (exit code 1) on breach - lower --limit or upgrade with user consent before retrying."
+author: "新郑市怪奇信息技术工作室"
 metadata:
   openclaw:
     emoji: "📷"
